@@ -1,0 +1,275 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"owner",
+				"owner_url"
+			],
+			[
+				"ow",
+				"owner_login"
+			],
+			[
+				"ruby",
+				"ruby_repositories"
+			],
+			[
+				"AppGit",
+				"AppGithubApi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/spec/spec_helper.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/views/home.erb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppDb.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/views/repos.erb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/index.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/readme.md",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/spec/app_sinatra_test.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/app_github_tests.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Repository.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppGithubApi.rb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/views/detalhes.erb",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Gemfile",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/config.ru",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppGithub.rb",
+		"/Users/demetrius/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/demetrius/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/demetrius/Library/Application Support/Sublime Text 3/Packages/Default/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"",
+			"]",
+			"[:",
+			"]",
+			"repository[:",
+			"\"",
+			"repo[",
+			"]",
+			"repo[:",
+			"short_name",
+			"Repositorios",
+			"repositorios",
+			"Repositorios",
+			"repositorio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"\"]",
+			"[\"",
+			"",
+			"repository.",
+			"'",
+			"repository[",
+			"",
+			"repository.",
+			"name",
+			"Repository",
+			"repository",
+			"Repository",
+			"repository"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.720112002212,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AppGARails.sublime-project",
+	"replace":
+	{
+		"height": 71.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
