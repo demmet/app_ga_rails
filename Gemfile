@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'octokit', '~> 4.0'
 gem 'rspec'
 gem 'capybara'
+gem 'pry-nav'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

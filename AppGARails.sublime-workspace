@@ -24,10 +24,32 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "app/controllers/welcome_controller.rb",
 			"settings":
 			{
-				"buffer_size": 61,
+				"buffer_size": 73,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "app/views/welcome/index.html.erb",
+			"file_size": 23,
+			"file_write_time": 131607479840000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 204,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -62,8 +84,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/app",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/app/controllers",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/app/views",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/app/views/welcome",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/config"
+	],
 	"file_history":
 	[
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/config/database.yml",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/README.md",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Gemfile",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/Gemfile",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/Dockerfile",
+		"/Users/demetrius/Documents/study/Ruby/AppGARails/app_ga_rails/docker-compose.yml",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Dockerfile",
+		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/docker-compose.yml",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/spec/spec_helper.rb",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/views/home.erb",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppDb.rb",
@@ -75,7 +114,6 @@
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Repository.rb",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppGithubApi.rb",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/views/detalhes.erb",
-		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/Gemfile",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/config.ru",
 		"/Users/demetrius/Documents/study/Ruby/App_Github_Atlw/AppGithub.rb",
 		"/Users/demetrius/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -144,35 +182,91 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "app/controllers/welcome_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 73,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								73,
+								73
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/welcome/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -211,7 +305,7 @@
 		"cols":
 		[
 			0.0,
-			0.720112002212,
+			0.655261338496,
 			1.0
 		],
 		"rows":
@@ -259,7 +353,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

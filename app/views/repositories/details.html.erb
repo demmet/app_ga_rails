@@ -1,0 +1,45 @@
+
+
+<center>
+	
+
+  <div><%= link_to "Home", root_path %><%= button_to "#{@repository.language.name.capitalize} Repositories", repositories_path(language: @repository.language.name.to_sym) %></div>
+	<h2>Detalhes do Repositório <%= @repository.full_name %></h2>
+  <table>
+    <tr>
+      <td>Id: </td>
+      <td><%= @repository.github_id %></td>
+    </tr>
+    <tr>
+      <td>Nome completo: </td>
+      <td><%= @repository.full_name %></td>
+    </tr>
+    <tr>
+      <td>Descrição: </td>
+      <td><%= @repository.description %></td>
+    </tr>
+    <tr>
+      <td>Linguagem: </td>
+      <td><%= @repository.language.name.capitalize %></td>
+    </tr>
+    
+    <tr>
+      <td>HTML URL: </td>
+      <td><%= @repository.html_url %></td>
+    </tr>
+    <tr>
+      <td>Autor: </td>
+      <td><%= @repository.owner_login %></td>
+    </tr>
+    <tr>
+      <td>URL do Autor: </td>
+      <td><%= @repository.owner_url %></td>
+    </tr>
+    <tr>
+      <td>Privado? </td>
+      <td><%= @repository.private ? 'Sim' : 'Não' %></td>
+    </tr>
+  </table>
+	
+
+</center>

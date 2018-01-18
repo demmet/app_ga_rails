@@ -1,2 +1,25 @@
 
-<h1>Hello, Rails!</h1>
+<center>
+	
+	<h2>Bem-vindo! <%= @teste %></h2>
+	<table>
+		<tr>
+			<td>
+				<%= button_to "Ruby Repositories", repositories_path(language: :ruby) %>
+			</td>
+			<td>
+				<%= button_to "C Repositories", repositories_path(language: :c) %>
+			</td>
+			<td>
+				<%= button_to "Java Repositories", repositories_path(language: :java) %>
+			</td>
+			<td>
+				<%= button_to "PHP Repositories", repositories_path(language: :php) %>
+			</td>
+			<td>
+				<%= button_to "Assembly Repositories", repositories_path(language: :assembly) %>
+			</td>
+		</tr>
+
+	</table>
+</center>

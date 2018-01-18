@@ -1,0 +1,20 @@
+
+
+<center>
+	<h4><%= link_to "Home", root_path %></h4>
+	<h2>Lista de repositórios <%= @language.name %></h2>
+
+	<table>
+		<tr>
+			<th><%= "Nome do Repositório" %></td>
+			<th><%= "Detalhes" %></td>
+		</tr>
+		<% @language.repositories.each do |repository| %>
+		<tr>
+			<td><%= repository.name %></td>
+			<td><%= button_to "Detalhes", repository_path(id: repository.id) %></td>
+		</tr>
+		<% end %>
+	</table>
+
+</center>
