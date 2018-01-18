@@ -16,7 +16,6 @@ This application is a remake of the [App Github Atlw](https://github.com/demmet/
 
 In order to run the application you need to execute the following commands on your terminal:
 
-1. Start the rails project: `docker-compose run web rails new . --force --database=postgresql`
 1. Build the Docker containers: `docker-compose build`
 1. Run the containers: `docker-compose up -d`
 1. Create the PostgreSQL database: `docker-compose run web rake db:create`
