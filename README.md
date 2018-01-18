@@ -16,8 +16,7 @@ This application is a remake of the [App Github Atlw](https://github.com/demmet/
 
 In order to run the application you need to execute the following commands on your terminal:
 
-1. Build the Docker containers: `docker-compose build`
-1. Run the containers: `docker-compose up -d`
+1. Build and Run the containers: `docker-compose up -d`
 1. Enter container: `docker exec -it app_ga_rails bash`
 1. Create the PostgreSQL database: `rake db:setup`
 1. Run the Rails application: `bundle exec rails s -p 3000 -b '0.0.0.0'`
