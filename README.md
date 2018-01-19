@@ -20,7 +20,7 @@ In order to run the application you need to execute the following commands on yo
 1. Build and Run the containers: `docker-compose up -d`
 1. Enter container: `docker exec -it app_ga_rails bash`
 1. Create the PostgreSQL database: `rake db:setup`
-1. Run the Rails application: `rails s -b '0.0.0.0'`
+1. Run the Rails application: `rails s -b 0.0.0.0`
 1. Now your application is running and you can access it through http://localhost:3000
 
 ## How to run the tests
