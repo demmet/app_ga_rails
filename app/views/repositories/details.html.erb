@@ -3,9 +3,11 @@
 <center>
 	
 
-  <div><%= link_to "Home", root_path %><%= button_to "#{@repository.language.name.capitalize} Repositories", repositories_path(language: @repository.language.name.to_sym) %></div>
+  <%= link_to 'Home', root_path %>
+    <%= button_to "#{@repository.language.name.capitalize} Repositories",
+    repositories_path(language: @repository.language.name.to_sym) %>
 	<h2>Detalhes do Repositório <%= @repository.full_name %></h2>
-  <table>
+  <table border='1'>
     <tr>
       <td>Id: </td>
       <td><%= @repository.github_id %></td>

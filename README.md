@@ -21,3 +21,9 @@ In order to run the application you need to execute the following commands on yo
 1. Create the PostgreSQL database: `rake db:setup`
 1. Run the Rails application: `bundle exec rails s -p 3000 -b '0.0.0.0'`
 1. Now your application is running and you can access it through http://localhost:3000
+
+## How to run the tests
+
+To run the tests, after system configuration, execute the command:
+
+1. `bundle exec rspec`
