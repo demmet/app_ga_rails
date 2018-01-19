@@ -1,3 +1,11 @@
-example_id                       | status | run_time        |
--------------------------------- | ------ | --------------- |
-./spec/app_ga_rails_spec.rb[1:1] | passed | 0.74394 seconds |
+example_id                                             | status  | run_time        |
+------------------------------------------------------ | ------- | --------------- |
+./spec/app_ga_rails_spec.rb[1:1]                       | passed  | 0.73929 seconds |
+./spec/app_ga_rails_spec.rb[2:1]                       | passed  | 0.21547 seconds |
+./spec/controllers/languages_controller_spec.rb[1:1:1] | passed  | 0.10344 seconds |
+./spec/helpers/languages_helper_spec.rb[1:1]           | pending | 0.00001 seconds |
+./spec/helpers/repositories_helper_spec.rb[1:1]        | pending | 0.00001 seconds |
+./spec/views/languages/index.html.erb_spec.rb[1:1]     | pending | 0.00001 seconds |
+./spec/views/languages/show.html.erb_spec.rb[1:1]      | pending | 0.00001 seconds |
+./spec/views/repositories/index.html.erb_spec.rb[1:1]  | pending | 0.00001 seconds |
+./spec/views/repositories/show.html.erb_spec.rb[1:1]   | pending | 0.00001 seconds |

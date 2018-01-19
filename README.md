@@ -27,4 +27,4 @@ In order to run the application you need to execute the following commands on yo
 
 To run the tests, after system configuration, execute the command:
 
-1. `bundle exec rspec`
+1. `rspec`

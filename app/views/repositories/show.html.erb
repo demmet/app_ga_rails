@@ -1,9 +1,13 @@
 <center>
 	
 
-  <%= link_to 'Home', root_path %>
-    <% #link_to "#{@repository.language.name.capitalize} Repositories",
-    #repositories_path(language: @repository.language.name.to_sym) %>
+  <table border="1">
+  	<tr>
+  		<td><%= link_to 'Home', root_path %></td>
+  		<td><%= link_to "#{@repository.language.name.capitalize} Repositories",
+    language_path(@repository.language.name.to_sym), id: 'repositories' %></td>
+  	</tr>
+	
 	<h2>Detalhes do Repositório <%= @repository.full_name %></h2>
   <table border='1'>
     <tr>
