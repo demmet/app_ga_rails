@@ -1,18 +1,18 @@
 <center>
-	<h4><%= link_to 'Home', root_path %></h4>
-	<h2>Lista de repositórios <%= @language.name %></h2>
+  <h4><%= link_to 'Home', root_path %></h4>
+  <h2>Lista de repositórios <%= @language.name %></h2>
 
-	<table border='1'>
-		<tr>
-			<th><%= 'Nome do Repositório' %></td>
-			<th><%= 'Detalhes' %></td>
-		</tr>
-		<% @language.repositories.each do |repository| %>
-		<tr>
-			<td><%= repository.name %></td>
-			<td><%= link_to 'Detalhes', repository_path(repository.id) %></td>
-		</tr>
-		<% end %>
-	</table>
+  <table border='1'>
+    <tr>
+      <th><%= 'Nome do Repositório' %></td>
+      <th><%= 'Detalhes' %></td>
+    </tr>
+    <% @language.repositories.each do |repository| %>
+    <tr>
+      <td><%= repository.name %></td>
+      <td><%= link_to 'Detalhes', repository_path(repository.name) %></td>
+    </tr>
+    <% end %>
+  </table>
 
 </center>
