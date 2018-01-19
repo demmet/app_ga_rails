@@ -1,7 +1,11 @@
 class LanguagesController < ApplicationController
 
   def index
-  	@language = Language.where(name: params[:language]).take
+  	
+  end
+
+  def show
+		@language = Language.find_by(name: params[:id])
   end
 
 end

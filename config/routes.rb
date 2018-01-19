@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
   get 'welcome/index' => 'welcome#index'
-  root 'repositories#index'
+  root 'languages#index'
 
-  resources :languages, only: [:index]
-  resources :repositories, only: [:index, :show]
+  resources :languages, only: [:index, :show]
+  resources :repositories, only: [:show]
 
 end

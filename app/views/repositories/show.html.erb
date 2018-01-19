@@ -2,8 +2,8 @@
 	
 
   <%= link_to 'Home', root_path %>
-    <%= button_to "#{@repository.language.name.capitalize} Repositories",
-    repositories_path(language: @repository.language.name.to_sym) %>
+    <% #link_to "#{@repository.language.name.capitalize} Repositories",
+    #repositories_path(language: @repository.language.name.to_sym) %>
 	<h2>Detalhes do Repositório <%= @repository.full_name %></h2>
   <table border='1'>
     <tr>
